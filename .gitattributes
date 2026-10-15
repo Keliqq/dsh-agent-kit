@@ -1,0 +1,11 @@
+# Keep line endings stable across platforms: LF in the repository and in the
+# working copy, so the Loader patch and the skills read the same everywhere.
+* text=auto eol=lf
+
+# Binary assets, in case icons or screenshots are added later.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.gif binary
