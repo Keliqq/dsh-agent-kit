@@ -35,7 +35,6 @@ dependencies. It contributes Loader rows and nothing else.
 Skills included: `commit-message-format`, `frontend-design`, `frontend-design-direction`,
 `make-interfaces-feel-better`, `react-hooks-best-practices`, `reactuse`,
 `vercel-react-best-practices`, `web-design-guidelines` — they cover the web layer of the stack.
-Several of them are third-party content; see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 ## Requirements
 
@@ -86,7 +85,6 @@ package.json            manifest: dsh.bundle.patch points at the patch above
 locale/en.json          plugin card title and description
 skills/                 the eight skills mounted by the preset
 LICENSE                 MIT
-THIRD-PARTY-NOTICES.md  licenses and origins of the bundled skill content
 ```
 
 ## Notes and limitations
@@ -105,5 +103,4 @@ THIRD-PARTY-NOTICES.md  licenses and origins of the bundled skill content
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Bundled third-party skill content keeps its own terms; see
-[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+MIT — see [LICENSE](LICENSE). Bundled third-party skill content keeps its own terms.

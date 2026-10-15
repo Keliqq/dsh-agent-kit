@@ -9,8 +9,7 @@
     "locale/*.json",
     "skills",
     "README.md",
-    "LICENSE",
-    "THIRD-PARTY-NOTICES.md"
+    "LICENSE"
   ],
   "keywords": [
     "deepseek-harness",
