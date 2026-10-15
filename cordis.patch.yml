@@ -1,5 +1,5 @@
 # dsh-agent-kit — конфигурационный бандл: одна строка Loader'а, которая
-# регистрирует пресет FEOD. Никаких Host/Client entry-файлов у пакета нет.
+# регистрирует пресет Fullstack. Никаких Host/Client entry-файлов у пакета нет.
 #
 # Пресет — копия штатного `standard` (источник:
 # @deepseek-ai/dsh-web-app/presets/standard.patch.yml) плюс пара отличий:
@@ -11,12 +11,12 @@
 # профиля, из него createRequire находит сам этот пакет. Тот же приём использует
 # штатный пресет `cordis`, монтируя скиллы `@deepseek-ai/dsh-agent-preset`.
 - insert:
-    - id: preset-feod
+    - id: preset-fullstack
       name: '@deepseek-ai/dsh-agent-preset'
       config:
-        id: feod
-        name: FEOD
-        description: Полная копия пресета standard
+        id: fullstack
+        name: Fullstack
+        description: 'Пресет под fullstack-стек: TanStack Start, Hono, Drizzle, Better-Auth'
         order: 5
         plugins:
           - id: persona
@@ -158,7 +158,7 @@
           - id: tool-plugin-manager
             name: '@deepseek-ai/dsh-plugin-manager/tools'
             disabled: true
-          # --- MCP-серверы (только в пресете FEOD) ---
+          # --- MCP-серверы (только в пресете Fullstack) ---
           - id: mcp-better-t-stack
             name: '@deepseek-ai/dsh-mcp-client'
             config:

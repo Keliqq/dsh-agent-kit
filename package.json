@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "DeepSeek Harness bundle: the FEOD agent preset with eight bundled frontend skills and six MCP servers.",
+  "description": "DeepSeek Harness bundle: an agent preset for TypeScript fullstack work, with eight bundled skills and six MCP servers.",
   "files": [
     "cordis.patch.yml",
     "locale/*.json",

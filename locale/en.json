@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "FEOD preset",
-    "description": "Agent preset for frontend work: the standard tool set, eight bundled frontend skills, and six MCP servers (better-t-stack, context7, shadcn, better-auth, playwright, chrome-devtools)."
+    "title": "Fullstack Agent Kit",
+    "description": "Agent preset for TypeScript fullstack work (TanStack Start, Hono, Drizzle, Better-Auth): eight bundled skills and six MCP servers (better-t-stack, context7, shadcn, better-auth, playwright, chrome-devtools)."
   }
 }
