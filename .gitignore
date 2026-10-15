@@ -1,0 +1,22 @@
+# Dependencies (this bundle is configuration-only and has none)
+node_modules/
+
+# Package manager artifacts
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Logs and local state
+*.log
+.pnpm-debug.log*
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local backups
+*.bak
+*.orig

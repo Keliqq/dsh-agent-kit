@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "FEOD preset",
+    "description": "Agent preset for frontend work: the standard tool set, eight bundled frontend skills, and six MCP servers (better-t-stack, context7, shadcn, better-auth, playwright, chrome-devtools)."
+  }
+}

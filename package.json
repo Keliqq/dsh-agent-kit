@@ -1,0 +1,39 @@
+{
+  "name": "dsh-agent-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness bundle: the FEOD agent preset with eight bundled frontend skills and six MCP servers.",
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-bundle",
+    "agent-preset",
+    "mcp",
+    "skills",
+    "frontend"
+  ],
+  "license": "MIT",
+  "author": "Keliqq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keliqq/dsh-agent-kit.git"
+  },
+  "homepage": "https://github.com/Keliqq/dsh-agent-kit#readme",
+  "bugs": {
+    "url": "https://github.com/Keliqq/dsh-agent-kit/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
